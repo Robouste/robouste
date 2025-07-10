@@ -1,0 +1,20 @@
+<div class="container">
+  @for (uiPalettes of palettes(); track $index) {
+    <div class="palette" (click)="onThemeSelect(uiPalettes)">
+      @for (palette of uiPalettes; track $index) {
+        <div
+          class="color"
+          [style.backgroundColor]="palette.color"
+          [style.color]="palette.contrast"
+        >
+          <span>
+            {{ palette.scale }}
+          </span>
+          <span>
+            {{ palette.color }}
+          </span>
+        </div>
+      }
+    </div>
+  }
+</div>

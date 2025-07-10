@@ -1,0 +1,12 @@
+{
+  "angular-schematics.schematicsDefaultOptions": {
+    "angular-*": {
+      "style": "css",
+      "externalTemplate": true,
+      "selectorPrefix": "rb"
+    },
+    "angular-component": {
+      "skipDisplayBlock": true
+    }
+  }
+}
