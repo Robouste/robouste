@@ -5,7 +5,7 @@ import { RbPalette, RbScale } from '../models';
 import { RbTheme, RbThemeColors } from '../models/theme.interface';
 import { CssVarNames } from './css-variables';
 
-const defaultPrimary = '#34f19a';
+const defaultPrimary = '#009688';
 const defaultSecondary = '#ff4081';
 const defaultAccent = '#3f51b5';
 const defaultWarn = '#f44336';
